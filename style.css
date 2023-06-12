@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+
+}
+
+.s1 {
+    font-size: 1vw;
+}
+
+/* HOME CONTAINER */
+
+.homeContainer {
+    background-color: rgb(255, 196, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.content {
+    height: 45vw;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.h1 {
+
+    font-size: 5vw;
+}
+
+.h3 {
+    margin-top: 3%;
+    font-size: 2vw;
+}
+
+.img {
+    width: 32vw;
+    height: 38vw;
+    border-radius: 14vw;
+    background-image: url(abhi.jpg);
+    background-size: cover;
+
+}
+
+/* navbar */
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    height: 4vw;
+    width: 100%;
+    background-color: rgb(70, 59, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 1vw;
+}
+
+
+li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(123, 255, 0);
+    border-radius: 6px;
+
+}
+
+
+/* Skills container */
+
+.skillsContainer {
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+}
+
+.h2 {
+    margin: 3%;
+    font-size: 4em;
+}
+
+.progress {
+    width: 20vw;
+    height: 38vw;
+}
+
+.bigBox {
+    height: 3vh;
+    width: 25vw;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-color: aqua;
+
+}
+
+.text {
+
+    display: flex;
+    margin: auto;
+
+}
+
+.box {
+    height: 3vh;
+    width: 17vw;
+    background-color: brown;
+
+}
+
+.fifty {
+    height: 3vh;
+    width: 8vw;
+    background-color: rgb(255, 251, 251);
+}
+
+.sixty {
+    height: 3vh;
+    width: 10vw;
+    background-color: rgb(255, 251, 251);
+}
+
+.seventy {
+    height: 3vh;
+    width: 11vw;
+    background-color: rgb(255, 251, 251);
+}
+
+.eighty {
+    height: 3vh;
+    width: 13vw;
+    background-color: rgb(255, 251, 251);
+}
+
+.ninety {
+    height: 3vh;
+    width: 15vw;
+    background-color: rgb(255, 251, 251);
+}
+
+
+
+/* Projects */
+.Projects {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(117, 250, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Projects div {
+    margin: 5%;
+}
+
+
+/* CONTACT  */
+
+.contact {
+    height: 4vw;
+    width: 100%;
+    background-color: rgb(3, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+    .homeContainer {
+        background-color: rgb(255, 196, 0);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .skillsContainer {
+        background-color: blueviolet;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .progress {
+        width: 45vw;
+        height: 38vw;
+    }
+
+    .bigBox {
+        height: 3vh;
+        width: 45vw;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        background-color: aqua;
+
+    }
+
+    .text {
+
+        display: flex;
+        margin: auto;
+
+    }
+
+    .box {
+        height: 3vh;
+        width: 30vw;
+        background-color: brown;
+
+    }
+
+    .fifty {
+        height: 3vh;
+        width: 15vw;
+        background-color: rgb(255, 251, 251);
+    }
+
+    .sixty {
+        height: 3vh;
+        width: 18vw;
+        background-color: rgb(255, 251, 251);
+    }
+
+    .seventy {
+        height: 3vh;
+        width: 21vw;
+        background-color: rgb(255, 251, 251);
+    }
+
+    .eighty {
+        height: 3vh;
+        width: 24vw;
+        background-color: rgb(255, 251, 251);
+    }
+
+    .ninety {
+        height: 3vh;
+        width: 27vw;
+        background-color: rgb(255, 251, 251);
+    }
+
+}
